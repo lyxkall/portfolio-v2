@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   },
   description:
     "A seasoned frontend web developer with a passion for creating engaging and interactive websites.",
-  metadataBase: new URL("https://aafrzl.my.id"),
+  metadataBase: new URL("https://files.catbox.moe/3969a7.png"),
   openGraph: {
     title: {
       template: "Coding with Haikal | %s",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     },
     description:
       "A seasoned frontend web developer with a passion for creating engaging and interactive websites.",
-    url: "https://aafrzl.my.id",
+    url: "https:/lyxkall.my.id",
     siteName: "Coding with Haikal",
     images: [
       {
