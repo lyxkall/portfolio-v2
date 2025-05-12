@@ -1,7 +1,7 @@
 {
-  "name": "aafrzl.my.id",
+  "name": "lyxkall.my.id",
   "description": "My personal website",
-  "author": "Coding with Afrizal",
+  "author": "Coding with Haikal",
   "version": "2.0.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "analyze": "ANALYZE=true next build",
     "email": "email dev --dir ./email"
   },
   "dependencies": {
