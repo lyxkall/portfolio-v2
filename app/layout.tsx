@@ -76,7 +76,7 @@ export const metadata: Metadata = {
     creator: "@lyxkall",
     images: [
       {
-        url: "/public/images/og-images.j",
+        url: "/public/images/og-images.jpg",
         width: 1000,
         height: 1200,
       },
