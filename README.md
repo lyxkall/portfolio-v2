@@ -1,4 +1,4 @@
-# Personal Portfolio Website aafrzl.my.id
+# Personal Portfolio Website lyxkall.my.id
 
 ## Description
 
@@ -71,13 +71,13 @@ NEXT_PUBLIC_REFRESH_TOKEN_SPOTIFY="Your Refresh Token Spotify"
 1. Clone the repository
 
 ```sh
-git clone https://github.com/aafrzl/v2.portfolio-aafrzl.my.id.git
+git clone https://github.com/lyxkall/portfolio-v2.git
 ```
 
 2. Navigate to the repository directory
 
 ```sh
-cd v2.portfolio-aafrzl.my.id
+cd portfolio-v2
 ```
 
 3. Install the dependencies
