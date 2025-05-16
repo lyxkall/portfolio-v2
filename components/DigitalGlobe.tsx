@@ -26,19 +26,19 @@ export default function DigitalGlobe({ className }: DigitalGlobeProps) {
 
     ctx.to(el.current, {
       ease: "none",
-      rotate: 90,
+      rotate: 1,
     })
   }, [])
   return (
     <div
       className={cn(
-        "max-md h-16 w-16 overflow-hidden rounded-full bg-zinc-200 dark:bg-zinc-800",
+        "max-md h-16 w-16 overflow-hidden rounded-full bg-zinc-200 dark:bg-zinc-900",
         className
       )}
       ref={el}
     >
       <div className="globe">
-        <div className="globe-wrap">
+        <div className="globe-wrap ">
           <div className="circle"></div>
           <div className="circle"></div>
           <div className="circle"></div>

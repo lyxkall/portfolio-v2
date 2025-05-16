@@ -1,5 +1,6 @@
 import AboutGlobeAnimate from "./AboutGlobeAnimate"
 import AnimateBody from "./AnimateBody"
+import AnimateExperience from "./AnimateExperience"
 import AnimateHeading from "./AnimateHeading"
 import AnimateParagraph from "./AnimateParagraph"
 import AnimateTitle from "./AnimateTitle"
@@ -9,6 +10,7 @@ import SocialMedia from "./SocialMedia"
 import Spotify from "./Spotify"
 import TiktokEmbed from "./TiktokEmbed"
 import Experience from "./Experience"
+import Skill from "./Skill"
 
 export default function About() {
   return (
@@ -39,6 +41,7 @@ export default function About() {
 
         <div className="flex w-full flex-col justify-between gap-4 lg:max-w-[1200px] ">
           <Experience />
+          <Skill />
           <GithubGraph />
           <SocialMedia />
         </div>
