@@ -12,9 +12,14 @@ export const metadata: Metadata = {
     template: "Coding with Haikal | %s",
     default: "Coding with Haikal | Frontend Developer",
   },
+   icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
+  },
   description:
     "A seasoned frontend web developer with a passion for creating engaging and interactive websites.",
-  metadataBase: new URL("https://files.catbox.moe/3969a7.png"),
+  metadataBase: new URL("https://lyxkall.my.id"),
   openGraph: {
     title: {
       template: "Coding with Haikal | %s",
@@ -22,7 +27,7 @@ export const metadata: Metadata = {
     },
     description:
       "A seasoned frontend web developer with a passion for creating engaging and interactive websites.",
-    url: "https:/lyxkall.my.id",
+    url: "https://lyxkall.my.id",
     siteName: "Coding with Haikal",
     images: [
       {
@@ -38,7 +43,7 @@ export const metadata: Metadata = {
     "haikal ramadan",
     "haikal",
     "lyxkall",
-    "coding with haiakl",
+    "coding with haikal",
     "frontend web developer",
     "frontend developer",
     "frontend engineer",
