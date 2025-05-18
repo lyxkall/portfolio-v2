@@ -1,13 +1,13 @@
 export const projects = [
-  {
+ {
     id: 1,
     slug: "project-1",
     title: "Project 1",
     description:
       "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     image: "/images/project-1.png",
-    tech: ["React", "TypeScript", "Next.js", "TailwindCSS"],
-    linkProject: "https://google.com",
+    tech: ["Squarespace", "Figma", "Wordpress"],
+    linkProject: "https://pmse.solar",
     repo: "https://github.com/lyxkall",
   },
   {
