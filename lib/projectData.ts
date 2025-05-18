@@ -1,5 +1,5 @@
 export const projects = [
-  {
+ {
     id: 1,
     slug: "project-1",
     title: "Project 1",
