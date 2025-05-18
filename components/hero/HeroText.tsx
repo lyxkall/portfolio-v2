@@ -27,8 +27,8 @@ export default function HeroText() {
         >
           <Image
             src={"/images/og-images.jpg"}
-            width={250}
-            height={550}
+            width={150}
+            height={150}
             priority
             alt="HAIKAL RAMADAN "
             className="h-full w-[100px] rounded-[16px] grayscale hover:grayscale-0 md:w-[200px] md:rounded-[32px] lg:w-[245px]"
