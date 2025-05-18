@@ -31,7 +31,7 @@ export default function HeroText() {
             height={550}
             priority
             alt="HAIKAL RAMADAN "
-            className=" h-full w-[100px] rounded-[16px] grayscale hover:grayscale-0 md:w-[200px] md:rounded-[32px] lg:w-[245px]"
+            className="h-full w-[100px] rounded-[16px] grayscale hover:grayscale-0 md:w-[200px] md:rounded-[32px] lg:w-[245px]"
           />
         </motion.div>
       </div>
