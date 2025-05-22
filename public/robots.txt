@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://lyxkall.my.id
+
+# Sitemaps
+Sitemap: https://lyxkall.my.id/sitemap.xml
