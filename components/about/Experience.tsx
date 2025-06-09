@@ -24,7 +24,7 @@ export default function Experience() {
       transition={{ duration: 0.5 }}
       className="w-full mb-16 relative"
     >
-      <h3 className="font-mono text-2xl font-bold text-white mb-8">Experience</h3>
+      <h3 className="font-mono text-2xl font-bold text-black dark:text-white mb-8">Experience</h3>
 
       <InfiniteScrollWrapper speed={40} direction="right">
         {experiences.map((exp, index) => (
@@ -34,16 +34,16 @@ export default function Experience() {
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
-                className="flex-shrink-0 w-[33rem] snap-start bg-zinc-800 border border-blue-400/30 rounded-lg p-6"
+                className="flex-shrink-0 w-[33rem] snap-start bg-zinc-200 dark:bg-zinc-800 border-blue-400/30 rounded-lg p-6"
                 >
             <div className="mb-2 overflow-hidden text-ellipsis">
-              <h4 className="text-white font-medium text-sm sm:text-base whitespace-normal break-words">
+              <h4 className="text-black dark:text-white font-medium text-sm sm:text-base whitespace-normal break-words">
                 {exp.role}
               </h4>
             </div>
-            <div className="text-gray-400 text-xs sm:text-sm mb-1 whitespace-nowrap">{exp.period}</div>
+            <div className="text-gray-500 dark:text-gray-400 text-xs sm:text-sm mb-1 whitespace-nowrap">{exp.period}</div>
             {exp.description && (
-              <p className="text-gray-300 text-xs sm:text-sm leading-relaxed whitespace-normal break-words">
+              <p className="text-gray-600 dark:text-gray-300 text-xs sm:text-sm leading-relaxed whitespace-normal break-words">
                 {exp.description}
               </p>
             )}

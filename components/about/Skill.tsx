@@ -45,10 +45,10 @@ const SkillBar = ({ name, level }: { name: string; level: number }) => {
   return (
     <div className="mb-4">
       <div className="flex justify-between items-center mb-1">
-        <span className="font-mono text-sm text-gray-300">{name}</span>
+        <span className="font-mono text-sm text-gray-700 dark:text-gray-400">{name}</span>
         <span className="font-mono text-xs text-white-400">{level}%</span>
       </div>
-      <div className="w-full bg-zinc-300/10 rounded-full h-1.5">
+      <div className="w- bg-zinc-200 p-3 dark:bg-zinc-800 rounded-full h-1.5">
         <motion.div
           initial={{ width: 0 }}
           whileInView={{ width: `${level}%` }}
@@ -82,7 +82,7 @@ export default function Skill() {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: index * 0.1 }}
-            className="bg-zinc-800 border border-blue-400/30 rounded-lg p-6"
+            className=" bg-zinc-200 dark:bg-zinc-800 border border-blue-400/30 rounded-lg p-6"
           >
             <div className="flex items-center gap-3 mb-4">
               {skillCategory.icon}
