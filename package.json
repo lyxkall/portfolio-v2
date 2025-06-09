@@ -50,7 +50,8 @@
     "swr": "^2.2.4",
     "tailwind-merge": "^2.0.0",
     "tailwindcss-animate": "^1.0.7",
-    "three": "^0.158.0"
+    "three": "^0.158.0",
+    "vue": "^3.4.0"
   },
   "devDependencies": {
     "@types/locomotive-scroll": "^4.1.3",
