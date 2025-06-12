@@ -54,7 +54,7 @@ const SkillBar = ({ name, level }: { name: string; level: number }) => {
           whileInView={{ width: `${level}%` }}
           viewport={{ once: true }}
           transition={{ duration: 0.8, type: "spring" }}
-          className="h-1.5 rounded-full bg-gradient-to-r from-blue-200 to-blue-600"
+          className="h-1.5 rounded-full bg-gradient-to-r from-blue-900 to-blue-600 dark:from-blue-200 dark:to-blue-600"
         />
       </div>
     </div>
@@ -82,7 +82,7 @@ export default function Skill() {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: index * 0.1 }}
-            className=" bg-zinc-200 dark:bg-zinc-800 border border-blue-400/30 rounded-lg p-6"
+            className=" bg-zinc-200 dark:bg-zinc-800 border rounded-lg p-6"
           >
             <div className="flex items-center gap-3 mb-4">
               {skillCategory.icon}

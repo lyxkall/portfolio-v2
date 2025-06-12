@@ -6,10 +6,10 @@ import { useAnimation } from "framer-motion"
 
 interface AnimateWordsProps {
   title: string
-  style: string
+  className?: string // Ubah dari 'style' ke 'className' untuk konvensi yang lebih baik
 }
 
-export const AnimateWords = ({ title, style }: AnimateWordsProps) => {
+export const AnimateWords = ({ title, className }: AnimateWordsProps) => {
   const ctrls = useAnimation()
   const ref = useRef(null)
   const inView = useInView(ref)
@@ -40,7 +40,7 @@ export const AnimateWords = ({ title, style }: AnimateWordsProps) => {
     <h1 aria-label={title} role="heading">
       <motion.span
         ref={ref}
-        className="flex flex-col overflow-hidden text-center text-[160px] font-extrabold leading-[0.8em] text-zinc-800 dark:text-zinc-200 sm:text-[250px] sm:leading-[0.85em] md:text-[170px] lg:text-[165px]"
+        className="flex flex-col"
       >
         {title.split(" ").map((word, index) => (
           <motion.div
@@ -54,7 +54,12 @@ export const AnimateWords = ({ title, style }: AnimateWordsProps) => {
             className="flex items-center justify-center overflow-hidden"
           >
             <motion.span
-              className={style}
+              className={`block text-center font-extrabold text-zinc-800 dark:text-zinc-200 
+                text-[80px] leading-[0.9em] 
+                sm:text-[120px] 
+                md:text-[140px] 
+                lg:text-[160px]
+                ${className || ""}`} // Gabungkan dengan className props
               variants={wordAnimation}
             >
               {word + "\u00A0"}

@@ -31,7 +31,7 @@ export default function About() {
 
         <div className="lg:mg-16 mb-10 flex w-full flex-col gap-4 text-[18px] font-medium leading-relaxed tracking-wide md:mb-16 md:gap-6 md:text-[20px] md:leading-relaxed lg:max-w-[90%] lg:text-base">
   <AnimateParagraph
-    paragraph="I am Haikal Ramadan Fresh Graduate from SMKN 1 CIPEUYNDEUY. I am honest, disciplined, and able to communicate well. I have good skills in Exel, Figma, and Capcut software. I focus on front-end development with good skills in creating attractive and responsive interfaces. My hobbies are drawing and gaming. I am eager to learn and develop my skills in technology and web design."
+    paragraph="I am Haikal Ramadan Fresh Graduate. I am honest, disciplined, and able to communicate well. I have good skills in Exel, Figma, and Capcut software. I focus on front-end development with good skills in creating attractive and responsive interfaces. My hobbies are drawing and gaming. I am eager to learn and develop my skills in technology and web design."
     delay={1.5}
   />
 
@@ -41,9 +41,9 @@ export default function About() {
 
         <div className="flex w-full flex-col justify-between gap-4 lg:max-w-[1200px] ">
           <Experience />
-          <Skill />
           <GithubGraph />
           <SocialMedia />
+           <Skill />
         </div>
       </div>
     </section>

@@ -40,9 +40,8 @@ export default function SocialMedia() {
       variants={AnimationSocialMedia}
       className="flex w-full flex-col justify-between gap-4 lg:flex-row"
     >
-      <Spotify />
-      <TiktokEmbed />
       <DiscordServer />
+      <TiktokEmbed />
     </motion.div>
   )
 }
